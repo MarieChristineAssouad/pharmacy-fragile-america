@@ -1,0 +1,58 @@
+<svg viewBox="0 0 900 490" width="900" height="490" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">How three data sources are joined by county</title>
+  <desc id="d">NPPES pharmacies, USDA rural score, and CMS Medicare spending are each joined on the county code to form one analysis table.</desc>
+  <defs>
+    <marker id="arw" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,1 L8,5 L0,9" fill="none" stroke="#7F8489" stroke-width="1.6"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="490" rx="14" fill="#FFFFFF"/>
+
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1F1F1F">Three public datasets, joined by county</text>
+
+  <!-- Source boxes -->
+  <g>
+    <rect x="40" y="70" width="250" height="92" rx="10" fill="#F4F4F5" stroke="#7F8489" stroke-width="1.5"/>
+    <rect x="40" y="70" width="7" height="92" rx="3" fill="#CE0E2D"/>
+    <text x="66" y="102" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#1F1F1F">NPPES</text>
+    <text x="66" y="126" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A5A5A">Pharmacy count</text>
+    <text x="66" y="144" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A5A5A">per county</text>
+
+    <rect x="40" y="196" width="250" height="92" rx="10" fill="#F4F4F5" stroke="#7F8489" stroke-width="1.5"/>
+    <rect x="40" y="196" width="7" height="92" rx="3" fill="#CE0E2D"/>
+    <text x="66" y="228" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#1F1F1F">USDA RUCC</text>
+    <text x="66" y="252" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A5A5A">Rural score, 1 (urban)</text>
+    <text x="66" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A5A5A">to 9 (deeply rural)</text>
+
+    <rect x="40" y="322" width="250" height="92" rx="10" fill="#F4F4F5" stroke="#7F8489" stroke-width="1.5"/>
+    <rect x="40" y="322" width="7" height="92" rx="3" fill="#CE0E2D"/>
+    <text x="66" y="354" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#1F1F1F">CMS Medicare</text>
+    <text x="66" y="378" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A5A5A">Medicare spending</text>
+    <text x="66" y="396" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#5A5A5A">per senior, by year</text>
+  </g>
+
+  <!-- Join node -->
+  <rect x="470" y="200" width="172" height="84" rx="12" fill="#CE0E2D"/>
+  <text x="556" y="236" text-anchor="middle" font-family="Georgia, serif" font-size="16.5" font-weight="bold" fill="#FFFFFF">Joined on county</text>
+  <text x="556" y="259" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#FFE3E7">(FIPS code)</text>
+
+  <!-- Output box -->
+  <rect x="700" y="180" width="172" height="124" rx="10" fill="#FFFFFF" stroke="#CE0E2D" stroke-width="2"/>
+  <text x="786" y="212" text-anchor="middle" font-family="Georgia, serif" font-size="16.5" font-weight="bold" fill="#1F1F1F">One analysis table</text>
+  <text x="786" y="238" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5A5A5A">One row per rural county,</text>
+  <text x="786" y="256" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5A5A5A">linking pharmacy access</text>
+  <text x="786" y="274" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#5A5A5A">to Medicare spending</text>
+
+  <!-- Arrows: sources to join node -->
+  <path d="M290,116 C380,116 390,214 466,226" fill="none" stroke="#7F8489" stroke-width="2" marker-end="url(#arw)"/>
+  <path d="M290,242 L466,242" fill="none" stroke="#7F8489" stroke-width="2" marker-end="url(#arw)"/>
+  <path d="M290,368 C380,368 390,270 466,258" fill="none" stroke="#7F8489" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- Arrow: join node to output -->
+  <path d="M642,242 L696,242" fill="none" stroke="#7F8489" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- Explanatory caption -->
+  <text x="450" y="448" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-style="italic" fill="#5A5A5A">Each source identifies its rows by a county code (FIPS),</text>
+  <text x="450" y="468" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-style="italic" fill="#5A5A5A">so all three datasets align, one row per county.</text>
+</svg>

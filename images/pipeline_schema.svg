@@ -1,0 +1,48 @@
+<svg viewBox="0 0 900 360" width="900" height="360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pt pd">
+  <title id="pt">How the data was prepared, in three stages</title>
+  <desc id="pd">Raw files are loaded unchanged, then cleaned, then joined on county into one curated analysis table.</desc>
+  <defs>
+    <marker id="parw" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,1 L8,5 L0,9" fill="none" stroke="#7F8489" stroke-width="1.6"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="360" rx="14" fill="#FFFFFF"/>
+
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" fill="#1F1F1F">How the data was prepared, in three stages</text>
+
+  <!-- Stage 1: Raw -->
+  <rect x="30" y="86" width="250" height="184" rx="10" fill="#F4F4F5" stroke="#7F8489" stroke-width="1.5"/>
+  <rect x="30" y="86" width="7" height="184" rx="3" fill="#CE0E2D"/>
+  <text x="56" y="120" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1F1F1F">1. Raw</text>
+  <text x="56" y="150" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Load each file exactly</text>
+  <text x="56" y="169" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">as it arrived</text>
+  <text x="56" y="197" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Nothing changed, so the</text>
+  <text x="56" y="216" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">original is always kept</text>
+
+  <!-- Stage 2: Clean -->
+  <rect x="325" y="86" width="250" height="184" rx="10" fill="#F4F4F5" stroke="#7F8489" stroke-width="1.5"/>
+  <rect x="325" y="86" width="7" height="184" rx="3" fill="#CE0E2D"/>
+  <text x="351" y="120" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1F1F1F">2. Clean</text>
+  <text x="351" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Trim text, convert</text>
+  <text x="351" y="167" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">numbers safely</text>
+  <text x="351" y="190" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Mark hidden or blank values</text>
+  <text x="351" y="213" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Pad county code to 5 digits</text>
+
+  <!-- Stage 3: Curated -->
+  <rect x="620" y="86" width="250" height="184" rx="10" fill="#FFFFFF" stroke="#CE0E2D" stroke-width="2"/>
+  <rect x="620" y="86" width="7" height="184" rx="3" fill="#CE0E2D"/>
+  <text x="646" y="120" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1F1F1F">3. Curated</text>
+  <text x="646" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Join all files on county</text>
+  <text x="646" y="171" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">One row per county,</text>
+  <text x="646" y="190" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">each year</text>
+  <text x="646" y="213" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5A5A5A">Ready for analysis</text>
+
+  <!-- Arrows between stages -->
+  <path d="M282,178 L323,178" fill="none" stroke="#7F8489" stroke-width="2" marker-end="url(#parw)"/>
+  <path d="M577,178 L618,178" fill="none" stroke="#7F8489" stroke-width="2" marker-end="url(#parw)"/>
+
+  <!-- Caption -->
+  <text x="450" y="316" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-style="italic" fill="#5A5A5A">Keeping the three stages separate means every number can be traced</text>
+  <text x="450" y="336" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13.5" font-style="italic" fill="#5A5A5A">back to its source, which keeps the work honest and easy to check.</text>
+</svg>
