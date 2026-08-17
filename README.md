@@ -2,10 +2,11 @@
 
 **Rural pharmacy access vs. Medicare spending. A US county level case study (through 2023).**
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-ELT_pipeline-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-Interactive_dashboard-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Public data](https://img.shields.io/badge/Data-Public_federal-4E79A7?style=flat-square)
-![Analysis](https://img.shields.io/badge/Analysis-Descriptive-7F8489?style=flat-square)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-CE0E2D?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/marie.christine.assouad/viz/Pharmacy-FragileAmerica/Dashboard2)
+[![SQL Pipeline](https://img.shields.io/badge/SQL_Pipeline-7F8489?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](#pipeline)
+[![The Data](https://img.shields.io/badge/The_Data-7F8489?style=for-the-badge)](#data)
+[![Key Insights](https://img.shields.io/badge/Key_Insights-7F8489?style=for-the-badge)](#insights)
+[![Descriptive not Causal](https://img.shields.io/badge/Descriptive_not_Causal-7F8489?style=for-the-badge)](#descriptive)
 
 > **In one line:** In rural America, counties with **0 to 1 pharmacies** spend about **\$754 more per senior** on Medicare every year, roughly **\$91 million** across **156 counties**, and the gap is getting wider.
 
@@ -15,7 +16,7 @@
 
 ---
 
-## ⚡ The story in 30 seconds
+## ⚡ Key takeaways (30 second read)
 
 - **Question:** Do rural counties with fewer pharmacies have higher Medicare spending per senior?
 - **Answer:** Yes. The fewer the pharmacies, the higher the spending, step by step.
@@ -32,8 +33,8 @@
 | 📍 Fragile rural counties (0 to 1 pharmacy) | **156** |
 | 👥 Seniors living in those counties | **120,724** |
 | 📈 Extra Medicare spend per senior, per year | **+\$754** |
-| 💵 Total extra Medicare spend, per year | **~\$91 million** |
-| 🎯 Share of that cost in just 15 counties | **~75% (~\$70M)** |
+| 💵 Total extra Medicare spend, per year | **about \$91 million** |
+| 🎯 Share of that cost in just 15 counties | **about 75% (\$70M)** |
 
 *Descriptive, not causal. Every figure reflects data through 2023.*
 
@@ -46,6 +47,8 @@ For many seniors in rural America, the nearest pharmacy can be an hour's drive a
 > **The question this project answers:** Do rural areas with fewer pharmacies have higher Medicare spending per senior, and if so, where should a company act first?
 
 ---
+
+<a id="data"></a>
 
 ## 🧩 The data and how it was built
 
@@ -68,6 +71,8 @@ The raw files were cleaned and combined in three stages, an **ELT** pipeline (Ex
 ![The raw, clean, curated pipeline](images/pipeline_schema.png)
 
 ---
+
+<a id="insights"></a>
 
 ## 🔑 Key insights
 
@@ -109,8 +114,10 @@ Just **15 counties** account for about **\$70M of the \$91M** (roughly **75%**),
 
 </details>
 
+<a id="pipeline"></a>
+
 <details>
-<summary><b>🛠️ How it was built — technical detail (SQL pipeline)</b></summary>
+<summary><b>🛠️ How it was built, technical detail (SQL pipeline)</b></summary>
 
 <br>
 
@@ -163,6 +170,20 @@ pharmacy-fragile-america/
 **Tools:** SQL Server (ELT pipeline) · Tableau (interactive dashboard) · population weighted analysis.
 
 **Data:** NPPES (pharmacies) · USDA Rural-Urban Continuum Codes · CMS Medicare Geographic Variation Public Use File. Market context sources are listed in the case study.
+
+---
+
+<a id="descriptive"></a>
+
+## 🧭 Why this study is descriptive, not causal
+
+This project shows that fewer pharmacies and higher Medicare spending happen **together** in rural counties. It does **not** prove that one causes the other.
+
+A **descriptive** finding says two things move together. A **causal** finding says one thing makes the other happen, which is a much stronger claim that needs far more proof.
+
+Think of ice cream and drowning: both rise in summer, so they move together, but ice cream does not cause drowning. Hot weather drives both. In the same way, fewer pharmacies and higher spending could both be driven by something else, such as lower income, worse health, or distance from a hospital.
+
+So this study reports a strong, consistent pattern that is worth acting on, but it does not claim pharmacies are the proven cause. Proving cause would need controlling for those other factors, ideally over time. Calling it descriptive is a deliberate choice to stay honest about what the data can and cannot show.
 
 ---
 
