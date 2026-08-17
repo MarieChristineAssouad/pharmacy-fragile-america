@@ -116,6 +116,10 @@ Just **15 counties** account for about **\$70M of the \$91M** (roughly **75%**),
 
 <a id="pipeline"></a>
 
+### The SQL Pipeline
+
+![SQL pipeline: nineteen scripts in five stages, from four raw files to one finding](images/sql_pipeline_schema.png)
+
 <details>
 <summary><b>🛠️ How it was built, technical detail (SQL pipeline)</b></summary>
 
