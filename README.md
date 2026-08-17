@@ -15,7 +15,7 @@
 
 ---
 
-## ⚡ TL;DR
+## ⚡ The story in 30 seconds
 
 - **Question:** Do rural counties with fewer pharmacies have higher Medicare spending per senior?
 - **Answer:** Yes. The fewer the pharmacies, the higher the spending, step by step.
