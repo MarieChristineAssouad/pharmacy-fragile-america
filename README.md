@@ -181,13 +181,11 @@ pharmacy-fragile-america/
 
 ## 🧭 Why this study is descriptive, not causal
 
-This project shows that fewer pharmacies and higher Medicare spending happen **together** in rural counties. It does **not** prove that one causes the other.
+This study shows that in rural counties, fewer pharmacies and higher Medicare spending happen **together**. It does **not** prove that one causes the other.
 
-A **descriptive** finding says two things move together. A **causal** finding says one thing makes the other happen, which is a much stronger claim that needs far more proof.
+A **descriptive** finding says two things move together. A **causal** finding says one makes the other happen, which needs far more proof. Think of ice cream and drowning: both rise in summer, so they move together, but hot weather drives both. In the same way, fewer pharmacies and higher spending could both come from something else, like lower income or worse health.
 
-Think of ice cream and drowning: both rise in summer, so they move together, but ice cream does not cause drowning. Hot weather drives both. In the same way, fewer pharmacies and higher spending could both be driven by something else, such as lower income, worse health, or distance from a hospital.
-
-So this study reports a strong, consistent pattern that is worth acting on, but it does not claim pharmacies are the proven cause. Proving cause would need controlling for those other factors, ideally over time. Calling it descriptive is a deliberate choice to stay honest about what the data can and cannot show.
+So this is a strong, consistent pattern worth acting on, not a proven cause. Calling it **descriptive** is a deliberate choice to stay honest about what the data can and cannot show.
 
 ---
 
