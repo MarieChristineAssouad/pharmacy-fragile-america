@@ -181,11 +181,19 @@ pharmacy-fragile-america/
 
 ## 🧭 Why this study is descriptive, not causal
 
-This study shows that in rural counties, fewer pharmacies and higher Medicare spending happen **together**. It does **not** prove that one causes the other.
+## 🧭 What is causing this, and why the study remains descriptive
 
-A **descriptive** finding says two things move together. A **causal** finding says one makes the other happen, which needs far more proof. Think of ice cream and drowning: both rise in summer, so they move together, but hot weather drives both. In the same way, fewer pharmacies and higher spending could both come from something else, like lower income or worse health.
+A causal explanation does exist here. It is stated with discipline.
 
-So this is a strong, consistent pattern worth acting on, not a proven cause. Calling it **descriptive** is a deliberate choice to stay honest about what the data can and cannot show.
+**The mechanism is believable.** When the nearest pharmacy is far, seniors miss doses. Conditions like diabetes and high blood pressure become harder to control at home, and more people end up in the hospital, where care is expensive. The preventable hospitalization rates in this data move in the direction that mechanism predicts.
+
+**The pattern behaves the way a real effect behaves.** Spending rises step by step as pharmacies disappear, from 6 or more, to 2 to 5, to 1, to 0. A clean staircase like that is rare in random noise, and the gap widens over time instead of flickering year to year.
+
+**The pattern survives the obvious objection.** Across all counties, more pharmacies appear alongside more spending, because cities have both. Comparing rural counties only reverses the relationship and makes it clear. Removing the largest confounder made the signal stronger, not weaker.
+
+**What cannot be ruled out.** Poorer, sicker, more remote counties may both lose pharmacies and cost more for other reasons, and pharmacies tend to open where demand already exists. Ice cream sales and drowning both rise in summer, yet hot weather drives both.
+
+**The finding is therefore reported as descriptive by choice.** The honest statement is a strong association with a credible mechanism, not a proven cause. Establishing cause would require holding income, age, and health status constant in a regression and following counties over time. Naming that limit is part of the analysis, not a gap in it.
 
 ---
 
