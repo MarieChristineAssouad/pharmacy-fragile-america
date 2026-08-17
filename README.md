@@ -97,7 +97,7 @@ Just **15 counties** account for about **\$70M of the \$91M** (roughly **75%**),
 3. **Use low cost store formats suited to small markets.** A physical presence offers what delivery cannot: counseling, vaccinations, and immediate access when a prescription runs out.
 4. **Act now, the cost of inaction is rising.** The gap keeps widening, so delay only raises the eventual cost.
 
-*A company specific version (tailored to CVS Health) is in the [full case study](case-study/Pharmacy_Fragile_America_Case_Study.docx).*
+*A company specific version (tailored to CVS Health) is in the [full case study](case-study/Pharmacy_Fragile_America_Case_Study.pdf).*
 
 ---
 
